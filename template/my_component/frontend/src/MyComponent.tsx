@@ -76,7 +76,7 @@ class MyComponent extends StreamlitComponentBase<State> {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "xi-api-key": "ffccce1f016467b81da793bac0174bfe",
+          "xi-api-key": "secret",
         },
         body: JSON.stringify({
           text: text,
